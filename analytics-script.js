@@ -22,7 +22,6 @@
 				var dataScript = document.createElement('SCRIPT');
 				dataScript.src = '//vcu.collserve.com/vcu.js';
 				dataScript.type = 'text/javascript';
-				console.log(document.getElementsByTagName('body')[0])
 				document.getElementsByTagName('body')[0].appendChild(dataScript);
 			}
 			if (data.SocialSubscription) {
